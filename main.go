@@ -18,7 +18,7 @@ func receiveCredentials(name string, age int) {
 	if checkAge(age) {
 		print(fmt.Sprintf("Name: %s, Age, %d", name, age))
 	} else {
-		fmt.Sprintln("%s are not allowed to enter", name)
+		print("You are not allowed to enter")
 	}
 }
 
